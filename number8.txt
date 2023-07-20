@@ -1,0 +1,13 @@
+public class Even {
+    public static void main(String[] args) {
+        int num = 12;
+        
+        do {
+            if (num % 2 == 0) {
+                System.out.println(num);
+            }
+            num += 2;
+        } while (num <= 50);
+    }
+}
+
